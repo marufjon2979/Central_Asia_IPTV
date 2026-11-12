@@ -13,20 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout IPTV repository
         uses: actions/checkout@v4
 
-      - name: Download Russian EPG
-        run: |
-          mkdir -p epg
-          curl -fL --retry 3 \
-            https://iptv-org.github.io/epg/guides/ru.xml \
-            -o epg/ru.xml
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-      - name: Save EPG
+      - name: Download EPG engine
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add epg/ru.xml
-          git diff --cached --quiet || git commit -m "Update Russian EPG"
-          git push
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg-engine
+          cd epg-engine
+          npm install
+
+      - name: Generate Russian EPG
+        run: |
+          cd epg-engine
+          npm run grab -- --countries=ru --output=../epg.xml
