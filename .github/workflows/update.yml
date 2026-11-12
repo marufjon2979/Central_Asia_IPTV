@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -36,4 +38,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tv.m3u all_channels.m3u report.txt check_report.txt
           git diff --cached --quiet || git commit -m "Update IPTV playlist"
-          git push
+          git pull --rebase origin main
+          git push origin main
