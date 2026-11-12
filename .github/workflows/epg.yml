@@ -1,0 +1,32 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Russian EPG
+        run: |
+          mkdir -p epg
+          curl -fL --retry 3 \
+            https://iptv-org.github.io/epg/guides/ru.xml \
+            -o epg/ru.xml
+
+      - name: Save EPG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg/ru.xml
+          git diff --cached --quiet || git commit -m "Update Russian EPG"
+          git push
