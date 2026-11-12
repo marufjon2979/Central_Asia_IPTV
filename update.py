@@ -7,9 +7,13 @@ BASE = "https://iptv-org.github.io/iptv/"
 SOURCES = [
     ("countries/ru.m3u", "Россия"),
     ("languages/rus.m3u", "Русский язык"),
+
     ("countries/uz.m3u", "Узбекистан"),
     ("languages/uzb.m3u", "Узбекский язык"),
+
     ("countries/tj.m3u", "Таджикистан"),
+    ("languages/tgk.m3u", "Таджикский язык"),
+
     ("countries/tr.m3u", "Турция"),
     ("countries/ir.m3u", "Иран"),
     ("countries/af.m3u", "Афганистан"),
