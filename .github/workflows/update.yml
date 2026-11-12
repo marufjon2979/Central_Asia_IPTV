@@ -26,6 +26,9 @@ jobs:
 
       - name: Build IPTV playlist
         run: python update.py
+        
+        - name: Check IPTV streams
+        run: python check.py
 
       - name: Save playlist
         run: |
