@@ -28,7 +28,7 @@ jobs:
         run: python update.py
         
         - name: Check IPTV streams
-        run: python check.py
+run: python check.py
 
       - name: Save playlist
         run: |
