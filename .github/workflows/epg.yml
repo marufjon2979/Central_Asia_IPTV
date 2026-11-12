@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Download EPG engine
         run: |
@@ -30,4 +30,12 @@ jobs:
       - name: Generate Russian EPG
         run: |
           cd epg-engine
-          npm run grab -- --countries=ru --output=../epg.xml
+          npm run grab -- --sites=example.com --output=../epg.xml
+
+      - name: Save EPG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg.xml
+          git diff --cached --quiet || git commit -m "Update EPG"
+          git push
