@@ -1046,8 +1046,6 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/play
 http://stream.mcquack.net/70/index.m3u8
 #EXTINF:-1 tvg-id="555.ru@SD" tvg-logo="https://i.imgur.com/JQZkxeA.png" group-title="General",555 (720p)
 http://trk555.tv:8888/live
-#EXTINF:-1 tvg-id="PlusTV.by@SD" tvg-logo="https://static.tildacdn.biz/tild6366-6336-4230-b562-656138633562/___TV-___188-76.webp" group-title="General",+TV (576p) [Geo-blocked]
-https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
 #EXTINF:-1 tvg-id="black.ru@SD" tvg-logo="https://i.imgur.com/Q4A6ci4.png" group-title="Entertainment",.black (576p)
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" tvg-logo="https://i.imgur.com/GET9Qut.png" group-title="Entertainment",.red (576p)
@@ -1056,6 +1054,8 @@ http://5.188.159.128:8070/RED/index.m3u8
 http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1 tvg-id="scifi.ru@SD" tvg-logo="https://i.imgur.com/nSSUHcg.png" group-title="Science",.sci-fi (576p)
 http://stream.mcquack.net/180/index.m3u8
+#EXTINF:-1 tvg-id="PlusTV.by@SD" tvg-logo="https://static.tildacdn.biz/tild6366-6336-4230-b562-656138633562/___TV-___188-76.webp" group-title="General",+TV (576p) [Geo-blocked]
+https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
 #EXTINF:-1 tvg-id="A1.ru@SD" tvg-logo="https://i.imgur.com/2pAHdAi.png" group-title="Music",A1 (576p)
 http://31.148.48.15/A1/index.m3u8
 #EXTINF:-1 tvg-id="A2.ru@SD" tvg-logo="https://i.imgur.com/NqHla2V.png" group-title="Series",A2 (576p)
@@ -1232,6 +1232,8 @@ https://fs.uplink.kz/perviy_kanal_sng/mono.m3u8?token=onlinetv
 https://fs.uplink.kz/perviy_kanal_evrasia/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Channel16.ru@SD" tvg-logo="https://i.imgur.com/7tNDKHe.png" group-title="General",Channel-16 (406p) [Not 24/7]
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
+#EXTINF:-1 tvg-id="ChassePeche.fr@SD" tvg-logo="https://i.imgur.com/ZIS2ZQ1.png" group-title="Outdoor",Chasse & Peche (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/chasse_et_peche/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Che.ru@SD" tvg-logo="https://i.imgur.com/ZOcDGpB.png" group-title="Entertainment",Che! (576p)
 http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 tvg-id="Cinema.ru@SD" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Movies",Cinema (Russia) (576p)
@@ -1653,8 +1655,8 @@ http://88.212.15.50/live/test_muzyka_pervogo/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzzOne.kz@SD" tvg-logo="https://i.imgur.com/nHVABXh.png" http-referrer="https://muzzone.tv/" group-title="Music",MuzzOne
 #EXTVLCOPT:http-referrer=https://muzzone.tv/
 https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8
-#EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Relax",MyZen TV (1080p)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+#EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Relax",MyZen TV (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Nano.ru@SD" tvg-logo="https://i.imgur.com/dYj3XDa.png" group-title="Documentary",Nano (576p)
 http://stream.mcquack.net/419/index.m3u8
 #EXTINF:-1 tvg-id="Nano.ru@HD" tvg-logo="https://i.imgur.com/dYj3XDa.png" group-title="Documentary",Nano HD (1080p)
@@ -3345,7 +3347,7 @@ https://fl.biztv.media/biz_tv_720_uni8jhub4h8fub4idejswh8dh3j94finbu4nidj39inwsj
 https://stream8.cinerama.uz/1007/playlist.m3u8
 #EXTINF:-1 tvg-id="CheksizTV.uz" tvg-name="Cheksiz TV" tvg-country="UZ" group-title="Узбекистан / entertainment" tvg-logo="https://i.imgur.com/f7hHmmR.jpeg" tvg-language="uzb" nexus-score="0.1",Cheksiz TV
 https://fl.biztv.media/cheksiz_tv_480_unif7hujidth7f4du83jrhuid3k94j8hfj8d93eubych8eju93n4ubt/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="DasturxonTV.uz" tvg-name="Dasturxon TV" tvg-country="UZ" group-title="Узбекистан / general" tvg-logo="https://i.imgur.com/APM2ej5.jpeg" tvg-language="uzb,rus" nexus-score="97.5",Dasturxon TV
+#EXTINF:-1 tvg-id="DasturxonTV.uz" tvg-name="Dasturxon TV" tvg-country="UZ" group-title="Узбекистан / general" tvg-logo="https://i.imgur.com/APM2ej5.jpeg" tvg-language="uzb,rus" nexus-score="98.8",Dasturxon TV
 https://stream8.cinerama.uz/1206/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="Dunyoboylab.uz" tvg-name="Dunyo bo'ylab" tvg-country="UZ" group-title="Узбекистан / general" tvg-logo="https://i.imgur.com/KArB5U6.png" tvg-language="uzb" nexus-score="99.9",Dunyo bo'ylab
 https://stream8.cinerama.uz/1006/tracks-v1a1/playlist.m3u8
@@ -3369,7 +3371,7 @@ https://stream8.cinerama.uz/1014/tracks-v1a1/playlist.m3u8
 http://milliy.tv/hls/index.m3u8
 #EXTINF:-1 tvg-id="MiMiTV.uz" tvg-name="MiMi TV" tvg-country="UZ" group-title="Узбекистан / kids" tvg-logo="https://i.imgur.com/NmQglPa.png" tvg-language="uzb" nexus-score="0.1",MiMi TV
 https://fl.biztv.media/MiMiTV_720/playlist.m3u8
-#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="97.5",Muz TV Uzbekistan
+#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="98.8",Muz TV Uzbekistan
 https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MY5.uz" tvg-name="MY5" tvg-country="UZ" group-title="Узбекистан / entertainment" tvg-logo="https://i.imgur.com/bjlzu5k.png" tvg-language="uzb" nexus-score="100",MY5
 https://stream8.cinerama.uz/1217/tracks-v1a1/playlist.m3u8
@@ -3383,7 +3385,7 @@ https://stream8.cinerama.uz/1220/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="Ozbekiston24.uz" tvg-name="O'zbekiston 24" tvg-country="UZ" group-title="Узбекистан / news" tvg-logo="https://i.imgur.com/VRFhKbw.png" tvg-language="uzb" nexus-score="100",O'zbekiston 24
 https://stream8.cinerama.uz/1011/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-id="OzbekistonTarixi.uz" tvg-name="O'zbekiston Tarixi" tvg-country="UZ" group-title="Узбекистан / documentary" tvg-logo="https://i.imgur.com/iTTd3Ir.png" tvg-language="uzb" nexus-score="99.4",O'zbekiston Tarixi
+#EXTINF:-1 tvg-id="OzbekistonTarixi.uz" tvg-name="O'zbekiston Tarixi" tvg-country="UZ" group-title="Узбекистан / documentary" tvg-logo="https://i.imgur.com/iTTd3Ir.png" tvg-language="uzb" nexus-score="99.7",O'zbekiston Tarixi
 https://stream8.cinerama.uz/1209/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="Qaraqalpaqstan.uz" tvg-name="Qaraqalpaqstan" tvg-country="UZ" group-title="Узбекистан / general" tvg-logo="https://i.imgur.com/G3qrUJh.png" tvg-language="uzb" nexus-score="99.9",Qaraqalpaqstan
 https://stream8.cinerama.uz/1467/playlist.m3u8
