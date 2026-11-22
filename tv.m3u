@@ -354,8 +354,6 @@ https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
 http://5.188.159.128:8070/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="Kinouzhas.ru@SD" tvg-logo="https://i.imgur.com/mAcAAQF.png" group-title="Movies",Kinouzhas (1080p)
 http://s1.merlive.am/Kinoujas/index.m3u8
-#EXTINF:-1 tvg-id="KNMusicTV.az@SD" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="Music",KN Music TV
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Komedia.ru@SD" tvg-logo="https://i.imgur.com/VRC5juh.png" group-title="Comedy",Komedia (576p)
 http://176.118.197.101/Komediya/index.m3u8
 #EXTINF:-1 tvg-id="Komediynoe.ru@HD" tvg-logo="https://i.imgur.com/cEKe8XC.png" group-title="Comedy",Komediynoe HD (1080p)
@@ -1076,7 +1074,7 @@ https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
 http://31.148.48.15/A1/index.m3u8
 #EXTINF:-1 tvg-id="A2.ru@SD" tvg-logo="https://i.imgur.com/NqHla2V.png" group-title="Series",A2 (576p)
 http://31.148.48.15/A2/index.m3u8
-#EXTINF:-1 tvg-id="AbazaTV.ru@SD" tvg-logo="https://i.imgur.com/7Jo7UAf.png" group-title="General",Abaza TV (1080p)
+#EXTINF:-1 tvg-id="AbazaTV.ru@SD" tvg-logo="https://i.imgur.com/7Jo7UAf.png" group-title="General",Abaza TV
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
 #EXTINF:-1 tvg-id="Afontovo.ru@SD" tvg-logo="https://i.imgur.com/StFfPaI.png" group-title="General",Afontovo
 https://stream.afontovo.ru/hd.m3u8
@@ -1212,8 +1210,8 @@ http://88.218.242.237:8001/Cartoon_Classics
 http://45.132.87.69:8080/cartoon_network/index.m3u8
 #EXTINF:-1 tvg-id="CartoonitoCEE.uk@SD" tvg-logo="https://i.imgur.com/9MrzLb1.png" group-title="Kids",Cartoonito CEE
 http://193.33.39.108:9019/play/a00t
-#EXTINF:-1 tvg-id="CGTNRussian.cn@SD" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="News",CGTN Russian (1080p)
-https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNRussian.cn@SD" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="News",CGTN Russian (576p)
+https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 tvg-id="Channel5.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/5-tv_logo_%282023%29.svg/960px-5-tv_logo_%282023%29.svg.png" group-title="General",Channel 5 (Russia) (576p)
 http://31.148.5.241/kanal_5/index.m3u8
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-logo="https://i.imgur.com/8VKc2Ya.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",Channel 5 International (576i)
@@ -2748,8 +2746,6 @@ https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #EXTINF:-1 tvg-id="KentTurk.tr@SD" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="General",Kent Turk (1080p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
-#EXTINF:-1 tvg-id="KNMusicTV.az@SD" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="Music",KN Music TV
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="General",Kocaeli TV (1080p)
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KonyaOlayTV.tr@SD" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" group-title="General",Konya Olay TV (720p)
@@ -3382,7 +3378,7 @@ https://stream8.cinerama.uz/1006/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1458/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="FTV.uz" tvg-name="FTV" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://i.imgur.com/7lpISyN.jpg" tvg-language="uzb" nexus-score="99.9",FTV
 https://stream8.cinerama.uz/1018/playlist.m3u8
-#EXTINF:-1 tvg-id="FutbolTV.uz" tvg-name="Futbol TV" tvg-country="UZ" group-title="Узбекистан / sports" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-language="uzb" nexus-score="75.9",Futbol TV
+#EXTINF:-1 tvg-id="FutbolTV.uz" tvg-name="Futbol TV" tvg-country="UZ" group-title="Узбекистан / sports" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-language="uzb" nexus-score="88.2",Futbol TV
 http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinoteatr.uz" tvg-name="Kinoteatr" tvg-country="UZ" group-title="Узбекистан / movies" tvg-logo="https://i.imgur.com/emH1BgC.png" tvg-language="uzb" nexus-score="100",Kinoteatr
 https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
@@ -3398,7 +3394,7 @@ https://stream8.cinerama.uz/1014/tracks-v1a1/playlist.m3u8
 http://milliy.tv/hls/index.m3u8
 #EXTINF:-1 tvg-id="MiMiTV.uz" tvg-name="MiMi TV" tvg-country="UZ" group-title="Узбекистан / kids" tvg-logo="https://i.imgur.com/NmQglPa.png" tvg-language="uzb" nexus-score="0.1",MiMi TV
 https://fl.biztv.media/MiMiTV_720/playlist.m3u8
-#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="99.9",Muz TV Uzbekistan
+#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="78.9",Muz TV Uzbekistan
 https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MY5.uz" tvg-name="MY5" tvg-country="UZ" group-title="Узбекистан / entertainment" tvg-logo="https://i.imgur.com/bjlzu5k.png" tvg-language="uzb" nexus-score="100",MY5
 https://stream8.cinerama.uz/1217/tracks-v1a1/playlist.m3u8
