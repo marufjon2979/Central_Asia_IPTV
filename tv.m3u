@@ -2314,7 +2314,7 @@ https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/Viasat_Epic_Drama_2026.svg" group-title="Series",Viasat Epic Drama Ukraine (576p)
 http://195.189.60.253/118/index.m3u8
-#EXTINF:-1 tvg-id="ViasatKino.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg" group-title="Movies",Viasat Kino (576p)
+#EXTINF:-1 tvg-id="ViasatKino.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg" group-title="Movies",Viasat Kino (Ukraine) (576p)
 http://dtv.vol.net.ua/Viasat_Kino/index.m3u8
 #EXTINF:-1 tvg-id="ViasatKinoAction.ua@SD" tvg-logo="https://i.imgur.com/HwsNIDK.png" group-title="Movies",Viasat Kino Action (576p)
 http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
@@ -2663,6 +2663,8 @@ https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavo
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 tvg-id="BeyazTV.tr@SD" tvg-logo="https://i.imgur.com/uykIdML.png" group-title="Undefined",Beyaz TV (720p) [Not 24/7]
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
+#EXTINF:-1 tvg-id="BiKanal.tr@SD" tvg-logo="https://www.bikanal.com/frontend/img/logo.webp" group-title="General",Bi Kanal (1080p)
+https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 #EXTINF:-1 tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" group-title="Undefined",Bir TV (720p)
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="Business",Bloomberg HT (720p)
@@ -2823,12 +2825,8 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
 #EXTINF:-1 tvg-id="MTurkTV.tr@SD" tvg-logo="https://i.imgur.com/xj1gvrq.png" group-title="General",MTurk TV (1080p)
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Documentary",National Geographic (Turkiye)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Documentary",National Geographic Wild (Turkiye)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (Turkiye) (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="Culture",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="NOW.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Entertainment",NOW (720p)
@@ -2847,6 +2845,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
 #EXTINF:-1 tvg-id="On4TV.tr@SD" tvg-logo="https://i.imgur.com/qGRa1KI.png" group-title="General",On4 TV (1080p)
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="PatiTV.tr@SD" tvg-logo="https://patitv.com.tr/wp-content/themes/pati-tv/assets/img/logo-240.png" group-title="General",Pati TV (1080p)
+https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8
 #EXTINF:-1 tvg-id="PersianaTurkiye.fr@SD" tvg-logo="" group-title="Entertainment",Persiana Turkiye
 https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="Music",Power Dance (1080p)
@@ -3419,7 +3419,7 @@ https://stream8.cinerama.uz/1006/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1458/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="FTV.uz" tvg-name="FTV" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://i.imgur.com/7lpISyN.jpg" tvg-language="uzb" nexus-score="99.9",FTV
 https://stream8.cinerama.uz/1018/playlist.m3u8
-#EXTINF:-1 tvg-id="FutbolTV.uz" tvg-name="Futbol TV" tvg-country="UZ" group-title="Узбекистан / sports" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-language="uzb" nexus-score="97.1",Futbol TV
+#EXTINF:-1 tvg-id="FutbolTV.uz" tvg-name="Futbol TV" tvg-country="UZ" group-title="Узбекистан / sports" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-language="uzb" nexus-score="98.6",Futbol TV
 http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinoteatr.uz" tvg-name="Kinoteatr" tvg-country="UZ" group-title="Узбекистан / movies" tvg-logo="https://i.imgur.com/emH1BgC.png" tvg-language="uzb" nexus-score="100",Kinoteatr
 https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
@@ -3435,7 +3435,7 @@ https://stream8.cinerama.uz/1014/tracks-v1a1/playlist.m3u8
 http://milliy.tv/hls/index.m3u8
 #EXTINF:-1 tvg-id="MiMiTV.uz" tvg-name="MiMi TV" tvg-country="UZ" group-title="Узбекистан / kids" tvg-logo="https://i.imgur.com/NmQglPa.png" tvg-language="uzb" nexus-score="0.1",MiMi TV
 https://fl.biztv.media/MiMiTV_720/playlist.m3u8
-#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="94.9",Muz TV Uzbekistan
+#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="97.5",Muz TV Uzbekistan
 https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MY5.uz" tvg-name="MY5" tvg-country="UZ" group-title="Узбекистан / entertainment" tvg-logo="https://i.imgur.com/bjlzu5k.png" tvg-language="uzb" nexus-score="100",MY5
 https://stream8.cinerama.uz/1217/tracks-v1a1/playlist.m3u8
