@@ -3419,7 +3419,7 @@ https://stream8.cinerama.uz/1006/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1458/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="FTV.uz" tvg-name="FTV" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://i.imgur.com/7lpISyN.jpg" tvg-language="uzb" nexus-score="99.9",FTV
 https://stream8.cinerama.uz/1018/playlist.m3u8
-#EXTINF:-1 tvg-id="FutbolTV.uz" tvg-name="Futbol TV" tvg-country="UZ" group-title="Узбекистан / sports" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-language="uzb" nexus-score="98.6",Futbol TV
+#EXTINF:-1 tvg-id="FutbolTV.uz" tvg-name="Futbol TV" tvg-country="UZ" group-title="Узбекистан / sports" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-language="uzb" nexus-score="99.3",Futbol TV
 http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinoteatr.uz" tvg-name="Kinoteatr" tvg-country="UZ" group-title="Узбекистан / movies" tvg-logo="https://i.imgur.com/emH1BgC.png" tvg-language="uzb" nexus-score="100",Kinoteatr
 https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
@@ -3435,7 +3435,7 @@ https://stream8.cinerama.uz/1014/tracks-v1a1/playlist.m3u8
 http://milliy.tv/hls/index.m3u8
 #EXTINF:-1 tvg-id="MiMiTV.uz" tvg-name="MiMi TV" tvg-country="UZ" group-title="Узбекистан / kids" tvg-logo="https://i.imgur.com/NmQglPa.png" tvg-language="uzb" nexus-score="0.1",MiMi TV
 https://fl.biztv.media/MiMiTV_720/playlist.m3u8
-#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="97.5",Muz TV Uzbekistan
+#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" group-title="Узбекистан / music" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" tvg-language="uzb" nexus-score="98.8",Muz TV Uzbekistan
 https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MY5.uz" tvg-name="MY5" tvg-country="UZ" group-title="Узбекистан / entertainment" tvg-logo="https://i.imgur.com/bjlzu5k.png" tvg-language="uzb" nexus-score="100",MY5
 https://stream8.cinerama.uz/1217/tracks-v1a1/playlist.m3u8
